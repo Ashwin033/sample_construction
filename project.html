@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>aakash const</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="project.html">PROJECT</a></li>
+                    <li><a href="contect.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR PROJECTS</h1>
+    </section>
+
+    <section class="course">
+        <h1>Our Previous Projects</h1>
+        <p>Aakash Construction completed a state-of-the-art commercial complex, featuring modern amenities, sustainable design, and exceptional craftsmanship.
+
+        </p>
+        <div class="row">
+           <div class="course-col">
+               <h3>Green Valley Residences</h3>
+               <p>A premium residential complex with eco-friendly features and lush landscaping.</p>
+            </div>
+            <div class="course-col">
+               <h3>TechPark Plaza</h3>
+               <p>A cutting-edge business park with advanced technological infrastructure and smart building systems.</p>
+            </div>
+            <div class="course-col">
+               <h3>Sunset Villas</h3>
+               <p>A luxurious villa community offering elegant designs, private pools, and scenic views.</p>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+
+    <section class="facilities">
+        <h1>ABOUT US</h1>
+        <p>Aakash Construction's has Modern equipment, Skilled labor, Quality materials, Timely completion, Safety protocols, Customized designs, Client support, Sustainable practices, Cost efficiency, Professional supervision.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa fa-heart-o"></i> Ashwin</p>
+    </section>
+
+    <!-- JavaScript -->
+
+    
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+ 
